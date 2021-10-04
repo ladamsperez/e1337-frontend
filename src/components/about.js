@@ -1,23 +1,14 @@
-import "./App.css";
-import styled from "styled-components";
-import { AccountBox } from "./components/accountBox";
+import React from "react";
 
-const AppContainer = styled.div`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;
 
-function App() {
+
+function About() {
   return (
-    <AppContainer>
-      <AccountBox />
-    </AppContainer>
+    <div>
+      <h1>About Page</h1>
+    </div>
   );
 }
 
 
-export default App;
+export default About;
